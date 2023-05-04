@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-code-with-quarkus-bxed
+  namespace: msawood-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/msawood-tenant/my-app-custom-pipeline/devfile-sample-code-with-quarkus-bxed@sha256:b61dfe562a86dd013abf3c1f23a384d4280458f45a3a0ff78eb039735b29032a
+        name: my-java-quarkus
+        resources: {}
+status: {}
