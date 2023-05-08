@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   name: devfile-sample-code-with-quarkus-ke6y
-  namespace: msawood-tenant
 spec:
   replicas: 1
   selector: {}
