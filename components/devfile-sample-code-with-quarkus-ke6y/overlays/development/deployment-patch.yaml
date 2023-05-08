@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/msawood-tenant/my-app-custom-pipeline/devfile-sample-code-with-quarkus-ke6y@sha256:1f4d24c1871eac6eec8fe579501f75f595f2b3d888956709ec0287b617e64f9a
+      - image: quay.io/redhat-user-workloads-stage/msawood-tenant/my-app-custom-pipeline/devfile-sample-code-with-quarkus-ke6y@sha256:3fea25a1896501ed1abeb2729b9caa383adf79de45836c7cdb6e33bb52e82641
         name: my-java-quarkus
         resources: {}
 status: {}
