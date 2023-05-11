@@ -9,7 +9,6 @@ metadata:
     app.kubernetes.io/name: devfile-sample-code-with-quarkus-ke6y
     app.kubernetes.io/part-of: my-app-custom-pipeline
   name: devfile-sample-code-with-quarkus-ke6y
-  namespace: msawood-tenant
 spec:
   ports:
   - port: 8081
