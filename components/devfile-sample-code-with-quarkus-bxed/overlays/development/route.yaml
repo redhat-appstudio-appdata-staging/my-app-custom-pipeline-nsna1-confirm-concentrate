@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-code-with-quarkus-bxed
     app.kubernetes.io/part-of: my-app-custom-pipeline
-  name: devfile-sample-code-with-pinp
+  name: devfile-sample-code-with-grdk
 spec:
   path: /
   port:
