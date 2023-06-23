@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-code-with-quarkus-bxed
     app.kubernetes.io/part-of: my-app-custom-pipeline
-  name: devfile-sample-code-with-xakq
+  name: devfile-sample-code-with-oeu7
 spec:
   path: /
   port:
